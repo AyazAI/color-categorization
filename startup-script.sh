@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Echo commands and fail on error
-set -ev
+set -v
 
 # [START getting_started_gce_startup_script]
 # Install or update needed software
