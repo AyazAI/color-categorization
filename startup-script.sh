@@ -18,11 +18,12 @@ set -ev
 # [START getting_started_gce_startup_script]
 # Install or update needed software
 apt-get update
-apt-get install -yq git supervisor python python-pip python3-distutils
+apt-get install -yq git supervisor python python3-pip python3-distutils
 pip install --upgrade pip virtualenv
 
 # Fetch source code
 export HOME=/root
+rm -rf /opt/app
 git clone https://github.com/AyazAI/color-categorization.git /opt/app
 
 # Install Cloud Ops Agent
