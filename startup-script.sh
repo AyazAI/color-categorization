@@ -27,7 +27,7 @@ rm -rf /opt/app
 git clone https://github.com/AyazAI/color-categorization.git /opt/app
 
 # Install Cloud Ops Agent
-# sudo bash /opt/app/add-google-cloud-ops-agent-repo.sh --also-install
+sudo bash /opt/app/add-google-cloud-ops-agent-repo.sh --also-install
 
 # Account to own server process
 useradd -m -d /home/pythonapp pythonapp
