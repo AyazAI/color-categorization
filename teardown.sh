@@ -16,7 +16,7 @@
 
 set -x
 
-MY_INSTANCE_NAME="my-app-instance"
+MY_INSTANCE_NAME="flask-color-api"
 ZONE=us-central1-a
 
 gcloud compute instances delete $MY_INSTANCE_NAME \
