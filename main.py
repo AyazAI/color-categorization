@@ -185,8 +185,8 @@ def colorDetectView():
 
 @app.route('/', methods=['GET', "OPTIONS"])
 def index():
-    return "Hello World"
+    return Response("Hello World", status=200)
 
 
 if __name__ == '__main__':
-    app.run(port=8080, debug=True)
+    app.run(port=8080)
